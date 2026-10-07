@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Calcolatrice {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("=== TEST JAVA PER COPILOT ===");
+        System.out.print("Inserisci il primo numero: ");
+        double num1 = scanner.nextDouble();
+
+        System.out.print("Inserisci il secondo numero: ");
+        double num2 = scanner.nextDouble();
+
+        double somma = num1 + num2;
+        System.out.println("La somma è: " + somma);
+
+        // --- PROVA COPILOT DA QUI IN POI ---
+        // Scrivi il commento sottostante e premi Invio:
+        
+        // Calcola la media dei due numeri
+    }
+}
